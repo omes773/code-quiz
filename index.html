@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <div id="container">
-        
-        
+    <nav>
+        <div id="nav">
+            <div class="high-score">
+                <a class="highscoreLink" onclick='getScore()' href='#'>
+                    <h4><strong>View Highscore</strong></h4>
+                </a>
+            </div>
+            <div class="time">
+                <h4>Time: <span id='timeLeft'>0</span></h4>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="container">
+            <div id="quizBody">
+                <h1>Code Quiz!</h1>
+                <h3>Click the Start to start the quiz.</h3>
+                <button onclick="start()">Start!</button>
+            </div>
+        </div>
+    </main>
 
-    </div>
-    
 
 
-
-
-
-
-
-
-
-
-    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

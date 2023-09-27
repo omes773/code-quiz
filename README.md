@@ -1,3 +1,5 @@
 # code-quiz
 
-# this is a code for a timed quiz that stores 3 high scores
+# this is a code for a timed quiz that stores high scores
+
+https://omes773.github.io/code-quiz/
